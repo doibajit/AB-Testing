@@ -1,0 +1,1974 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2018.4">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\dmedhi\Downloads\round-roaster-transactions\RoundRoastersTransactions.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>RoundRoastersTransactions.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="StoreID" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-transactions\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="Invoice Number" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-transactions\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="Invoice Date" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-transactions\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="SKU" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-transactions\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="Category" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-transactions\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="Product" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-transactions\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="QTY" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-transactions\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="Size" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-transactions\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="Gross Margin" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-transactions\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="Sales" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-transactions\RoundRoastersTransactions.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\dmedhi\Downloads\round-roaster-stores.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>round-roaster-stores.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="StoreID" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Sq_Ft" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="AvgMonthSales" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Right_Name" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Phone Number" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Street Combined" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Street 1" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Street 2" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Street 3" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="City" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="State" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Postal Code" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Region" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Country" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Coordinates" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Latitude" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Longitude" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Timezone" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Current Timezone Offset" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Olson Timezone" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="138" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Invoice Date" selected="True" type="Date" size="10" />
+            <SelectField field="SKU" selected="False" />
+            <SelectField field="Gross Margin" selected="True" type="Double" size="8" />
+            <SelectField field="Sales" selected="True" type="Double" size="8" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="StoreID" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-transactions\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="Invoice Number" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-transactions\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="Invoice Date" source="File: C:\Users\dmedhi\Downloads\round-roaster-transactions\RoundRoastersTransactions.csv" type="Date" />
+            <Field name="Category" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-transactions\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="Product" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-transactions\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="QTY" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-transactions\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="Size" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-transactions\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="Gross Margin" source="File: C:\Users\dmedhi\Downloads\round-roaster-transactions\RoundRoastersTransactions.csv" type="Double" />
+            <Field name="Sales" source="File: C:\Users\dmedhi\Downloads\round-roaster-transactions\RoundRoastersTransactions.csv" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="138" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Sq_Ft" selected="True" type="Double" size="8" />
+            <SelectField field="AvgMonthSales" selected="True" type="Double" size="8" />
+            <SelectField field="Street 2" selected="False" />
+            <SelectField field="Street 3" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="StoreID" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Sq_Ft" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="Double" />
+            <Field name="AvgMonthSales" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="Double" />
+            <Field name="Right_Name" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Phone Number" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Street Combined" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Street 1" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="City" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="State" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Postal Code" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Region" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Country" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Coordinates" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Latitude" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Longitude" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Timezone" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Current Timezone Offset" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Olson Timezone" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings>
+        <Position x="306" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Select Fields">StoreID=True,Invoice Number=True,Invoice Date=True,Category=True,Product=True,QTY=True,Size=True,Gross Margin=True,Sales=True</Value>
+          <Value name="Sample Data">False</Value>
+          <Value name="Number">True</Value>
+          <Value name="NNumber">5000</Value>
+          <Value name="Percent">False</Value>
+          <Value name="NPercent">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Interactive">
+          <RecordInfo>
+            <Field name="Text" size="2147483647" source="Report:Text:" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Reports">
+          <RecordInfo>
+            <Field name="Desc" size="64" source="Formula: (Multiple Sources)" type="V_String" />
+            <Field name="Report" size="2147483647" source="Report:Table:Basic:" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Name" size="14" source="Summarize: GroupBy - Name" type="String" />
+            <Field name="Field Category" size="64" source="Formula: (Multiple Sources)" type="String" />
+            <Field name="Min" source="File: C:\Users\dmedhi\Downloads\round-roaster-transactions\RoundRoastersTransactions.csv" type="Double" />
+            <Field name="Max" source="File: C:\Users\dmedhi\Downloads\round-roaster-transactions\RoundRoastersTransactions.csv" type="Double" />
+            <Field name="Median" source="Summarize: Median - Value" type="Double" />
+            <Field name="Std. Dev." source="Summarize: StdDev - Value" type="Double" />
+            <Field name="Percent Missing" source="Formula: (Multiple Sources)" type="Double" />
+            <Field name="Unique Values" source="Summarize: (Multiple Sources)" type="Int64" />
+            <Field name="Mean" source="Summarize: Avg - Value" type="Double" />
+            <Field name="Layout" size="2147483647" source="Report:Layout:" type="V_String" />
+            <Field name="Remarks" size="1073741823" source="Summarize: Concat - Value" type="V_WString" />
+            <Field name="Shortest_Value" size="254" source="Summarize: Shortest - Value" type="V_String" />
+            <Field name="Longest_Value" size="254" source="Summarize: Longest - Value" type="V_String" />
+            <Field name="MinValueCount" source="Summarize: Count - Value" type="Int64" />
+            <Field name="MaxValueCount" source="Summarize: Count - Value" type="Int64" />
+            <Field name="Latest Date" size="64" source="Formula: DateTimeFormat([Max_Value],&quot;%m/%d/%Y %H:00&quot;)" type="String" />
+            <Field name="Earliest Date" size="64" source="Formula: DateTimeFormat([Min_Value],&quot;%m/%d/%Y %H:00&quot;)" type="String" />
+            <Field name="Interval" size="64" source="Formula: (Multiple Sources)" type="V_WString" />
+            <Field name="ObjType" size="12" source="Summarize: GroupBy - ObjType" type="String" />
+            <Field name="Avg_AreaSqMi" source="Summarize: Avg - AreaSqMi" type="Double" />
+            <Field name="Avg_LengthMi" source="Summarize: Avg - LengthMi" type="Double" />
+            <Field name="Avg_NumPoints" source="Summarize: Avg - NumPoints" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Field_Summary_Report.yxmc" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings>
+        <Position x="210" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Select Fields">StoreID=True,Sq_Ft=True,AvgMonthSales=True,Right_Name=True,Phone Number=True,Street Combined=True,Street 1=True,City=True,State=True,Postal Code=True,Region=True,Country=True,Coordinates=True,Latitude=True,Longitude=True,Timezone=True,Current Timezone Offset=True,Olson Timezone=True</Value>
+          <Value name="Sample Data">False</Value>
+          <Value name="Number">True</Value>
+          <Value name="NNumber">5000</Value>
+          <Value name="Percent">False</Value>
+          <Value name="NPercent">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Interactive">
+          <RecordInfo>
+            <Field name="Text" size="2147483647" source="Report:Text:" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Reports">
+          <RecordInfo>
+            <Field name="Desc" size="64" source="Formula: (Multiple Sources)" type="V_String" />
+            <Field name="Report" size="2147483647" source="Report:Table:Basic:" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Name" size="23" source="Summarize: GroupBy - Name" type="String" />
+            <Field name="Field Category" size="64" source="Formula: (Multiple Sources)" type="String" />
+            <Field name="Min" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="Double" />
+            <Field name="Max" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="Double" />
+            <Field name="Median" source="Summarize: Median - Value" type="Double" />
+            <Field name="Std. Dev." source="Summarize: StdDev - Value" type="Double" />
+            <Field name="Percent Missing" source="Formula: (Multiple Sources)" type="Double" />
+            <Field name="Unique Values" source="Summarize: (Multiple Sources)" type="Int64" />
+            <Field name="Mean" source="Summarize: Avg - Value" type="Double" />
+            <Field name="Layout" size="2147483647" source="Report:Layout:" type="V_String" />
+            <Field name="Remarks" size="1073741823" source="Summarize: Concat - Value" type="V_WString" />
+            <Field name="Shortest_Value" size="254" source="Summarize: Shortest - Value" type="V_String" />
+            <Field name="Longest_Value" size="254" source="Summarize: Longest - Value" type="V_String" />
+            <Field name="MinValueCount" source="Summarize: Count - Value" type="Int64" />
+            <Field name="MaxValueCount" source="Summarize: Count - Value" type="Int64" />
+            <Field name="Latest Date" size="64" source="Formula: DateTimeFormat([Max_Value],&quot;%m/%d/%Y %H:00&quot;)" type="String" />
+            <Field name="Earliest Date" size="64" source="Formula: DateTimeFormat([Min_Value],&quot;%m/%d/%Y %H:00&quot;)" type="String" />
+            <Field name="Interval" size="64" source="Formula: (Multiple Sources)" type="V_WString" />
+            <Field name="ObjType" size="12" source="Summarize: GroupBy - ObjType" type="String" />
+            <Field name="Avg_AreaSqMi" source="Summarize: Avg - AreaSqMi" type="Double" />
+            <Field name="Avg_LengthMi" source="Summarize: Avg - LengthMi" type="Double" />
+            <Field name="Avg_NumPoints" source="Summarize: Avg - NumPoints" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Field_Summary_Report.yxmc" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="390" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\dmedhi\AppData\Local\Temp\Engine_4384_ad8e1b4bca984faeae4bd2961decdaac_\Engine_10856_d441e590e36f49cf8324a79748f2e5a3_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="306" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\dmedhi\AppData\Local\Temp\Engine_4384_ad8e1b4bca984faeae4bd2961decdaac_\Engine_10856_343a9585515e4e18a44d0892a3b94564_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="294" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="StoreID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="StoreID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_StoreID" selected="False" rename="Right_StoreID" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Left">
+          <RecordInfo>
+            <Field name="StoreID" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-transactions\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="Invoice Number" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-transactions\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="Invoice Date" source="File: C:\Users\dmedhi\Downloads\round-roaster-transactions\RoundRoastersTransactions.csv" type="Date" />
+            <Field name="Category" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-transactions\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="Product" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-transactions\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="QTY" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-transactions\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="Size" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-transactions\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="Gross Margin" source="File: C:\Users\dmedhi\Downloads\round-roaster-transactions\RoundRoastersTransactions.csv" type="Double" />
+            <Field name="Sales" source="File: C:\Users\dmedhi\Downloads\round-roaster-transactions\RoundRoastersTransactions.csv" type="Double" />
+          </RecordInfo>
+          <SortInfo noProgress="True">
+            <Field field="StoreID" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="Join">
+          <RecordInfo>
+            <Field name="StoreID" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-transactions\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="Invoice Number" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-transactions\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="Invoice Date" source="File: C:\Users\dmedhi\Downloads\round-roaster-transactions\RoundRoastersTransactions.csv" type="Date" />
+            <Field name="Category" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-transactions\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="Product" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-transactions\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="QTY" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-transactions\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="Size" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-transactions\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="Gross Margin" source="File: C:\Users\dmedhi\Downloads\round-roaster-transactions\RoundRoastersTransactions.csv" type="Double" />
+            <Field name="Sales" source="File: C:\Users\dmedhi\Downloads\round-roaster-transactions\RoundRoastersTransactions.csv" type="Double" />
+            <Field name="Sq_Ft" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="Double" />
+            <Field name="AvgMonthSales" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="Double" />
+            <Field name="Right_Name" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Phone Number" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Street Combined" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Street 1" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="City" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="State" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Postal Code" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Region" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Country" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Coordinates" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Latitude" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Longitude" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Timezone" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Current Timezone Offset" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Olson Timezone" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="StoreID" order="" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="Right">
+          <RecordInfo>
+            <Field name="StoreID" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Sq_Ft" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="Double" />
+            <Field name="AvgMonthSales" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="Double" />
+            <Field name="Right_Name" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Phone Number" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Street Combined" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Street 1" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="City" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="State" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Postal Code" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Region" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Country" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Coordinates" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Latitude" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Longitude" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Timezone" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Current Timezone Offset" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Olson Timezone" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+          </RecordInfo>
+          <SortInfo noProgress="True">
+            <Field field="StoreID" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="390" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>!IsEmpty([Region]) AND
+[Invoice Date]&gt;='2015-02-06' AND
+[Invoice Date]&lt;='2016-07-21'</Expression>
+          <Mode>Custom</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>
+            </Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2019-03-09 18:43:47</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>
+              </Operand>
+              <StartDate>2019-03-09 18:43:47</StartDate>
+              <EndDate>2019-03-09 18:43:47</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>!IsEmpty([Region]) AND
+[Invoice Date]&gt;='2015-02-06' AND
+[Invoice Date]&lt;='2016-07...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="True">
+          <RecordInfo>
+            <Field name="StoreID" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-transactions\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="Invoice Number" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-transactions\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="Invoice Date" source="File: C:\Users\dmedhi\Downloads\round-roaster-transactions\RoundRoastersTransactions.csv" type="Date" />
+            <Field name="Category" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-transactions\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="Product" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-transactions\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="QTY" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-transactions\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="Size" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-transactions\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="Gross Margin" source="File: C:\Users\dmedhi\Downloads\round-roaster-transactions\RoundRoastersTransactions.csv" type="Double" />
+            <Field name="Sales" source="File: C:\Users\dmedhi\Downloads\round-roaster-transactions\RoundRoastersTransactions.csv" type="Double" />
+            <Field name="Sq_Ft" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="Double" />
+            <Field name="AvgMonthSales" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="Double" />
+            <Field name="Right_Name" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Phone Number" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Street Combined" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Street 1" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="City" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="State" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Postal Code" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Region" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Country" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Coordinates" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Latitude" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Longitude" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Timezone" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Current Timezone Offset" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Olson Timezone" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="StoreID" order="" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="False">
+          <RecordInfo>
+            <Field name="StoreID" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-transactions\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="Invoice Number" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-transactions\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="Invoice Date" source="File: C:\Users\dmedhi\Downloads\round-roaster-transactions\RoundRoastersTransactions.csv" type="Date" />
+            <Field name="Category" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-transactions\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="Product" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-transactions\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="QTY" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-transactions\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="Size" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-transactions\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="Gross Margin" source="File: C:\Users\dmedhi\Downloads\round-roaster-transactions\RoundRoastersTransactions.csv" type="Double" />
+            <Field name="Sales" source="File: C:\Users\dmedhi\Downloads\round-roaster-transactions\RoundRoastersTransactions.csv" type="Double" />
+            <Field name="Sq_Ft" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="Double" />
+            <Field name="AvgMonthSales" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="Double" />
+            <Field name="Right_Name" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Phone Number" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Street Combined" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Street 1" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="City" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="State" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Postal Code" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Region" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Country" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Coordinates" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Latitude" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Longitude" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Timezone" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Current Timezone Offset" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Olson Timezone" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="StoreID" order="" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="510" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="FLOOR(DateTimeDiff([Invoice Date],'2015-02-06','days')/7+1)" field="Week" size="8" type="Int64" />
+            <FormulaField expression="DateTimeAdd('2015-02-06',7*([Week]-1),'days')" field="Week_Start" size="10" type="Date" />
+            <FormulaField expression="DateTimeAdd([Week_Start],6,'days')" field="Week_End" size="10" type="Date" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Week = FLOOR(DateTimeDiff([Invoice Date],'2015-02-06','days')/7+1)
+Week_Start = ...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="StoreID" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-transactions\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="Invoice Number" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-transactions\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="Invoice Date" source="File: C:\Users\dmedhi\Downloads\round-roaster-transactions\RoundRoastersTransactions.csv" type="Date" />
+            <Field name="Category" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-transactions\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="Product" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-transactions\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="QTY" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-transactions\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="Size" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-transactions\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="Gross Margin" source="File: C:\Users\dmedhi\Downloads\round-roaster-transactions\RoundRoastersTransactions.csv" type="Double" />
+            <Field name="Sales" source="File: C:\Users\dmedhi\Downloads\round-roaster-transactions\RoundRoastersTransactions.csv" type="Double" />
+            <Field name="Sq_Ft" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="Double" />
+            <Field name="AvgMonthSales" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="Double" />
+            <Field name="Right_Name" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Phone Number" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Street Combined" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Street 1" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="City" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="State" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Postal Code" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Region" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Country" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Coordinates" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Latitude" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Longitude" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Timezone" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Current Timezone Offset" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Olson Timezone" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Week" source="Formula: FLOOR(DateTimeDiff([Invoice Date],'2015-02-06','days')/7+1)" type="Int64" />
+            <Field name="Week_Start" source="Formula: DateTimeAdd('2015-02-06',7*([Week]-1),'days')" type="Date" />
+            <Field name="Week_End" source="Formula: DateTimeAdd([Week_Start],6,'days')" type="Date" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="StoreID" order="" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="606" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="StoreID" action="GroupBy" rename="StoreID" />
+            <SummarizeField field="Week" action="CountDistinct" rename="CountDistinct_Week" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="StoreID" size="254" source="Summarize: GroupBy - StoreID" type="V_String" />
+            <Field name="CountDistinct_Week" source="Summarize: CountDistinct - Week" type="Int64" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="StoreID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="906" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\dmedhi\Downloads\treatment-stores.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>treatment-stores.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="StoreID" size="254" source="File: C:\Users\dmedhi\Downloads\treatment-stores.csv" type="V_String" />
+            <Field name="Sq_Ft" size="254" source="File: C:\Users\dmedhi\Downloads\treatment-stores.csv" type="V_String" />
+            <Field name="AvgMonthSales" size="254" source="File: C:\Users\dmedhi\Downloads\treatment-stores.csv" type="V_String" />
+            <Field name="Phone Number" size="254" source="File: C:\Users\dmedhi\Downloads\treatment-stores.csv" type="V_String" />
+            <Field name="Street Combined" size="254" source="File: C:\Users\dmedhi\Downloads\treatment-stores.csv" type="V_String" />
+            <Field name="Street 1" size="254" source="File: C:\Users\dmedhi\Downloads\treatment-stores.csv" type="V_String" />
+            <Field name="Street 2" size="254" source="File: C:\Users\dmedhi\Downloads\treatment-stores.csv" type="V_String" />
+            <Field name="Street 3" size="254" source="File: C:\Users\dmedhi\Downloads\treatment-stores.csv" type="V_String" />
+            <Field name="City" size="254" source="File: C:\Users\dmedhi\Downloads\treatment-stores.csv" type="V_String" />
+            <Field name="Postal Code" size="254" source="File: C:\Users\dmedhi\Downloads\treatment-stores.csv" type="V_String" />
+            <Field name="Region" size="254" source="File: C:\Users\dmedhi\Downloads\treatment-stores.csv" type="V_String" />
+            <Field name="Country" size="254" source="File: C:\Users\dmedhi\Downloads\treatment-stores.csv" type="V_String" />
+            <Field name="Coordinates" size="254" source="File: C:\Users\dmedhi\Downloads\treatment-stores.csv" type="V_String" />
+            <Field name="Latitude" size="254" source="File: C:\Users\dmedhi\Downloads\treatment-stores.csv" type="V_String" />
+            <Field name="Longitude" size="254" source="File: C:\Users\dmedhi\Downloads\treatment-stores.csv" type="V_String" />
+            <Field name="Timezone" size="254" source="File: C:\Users\dmedhi\Downloads\treatment-stores.csv" type="V_String" />
+            <Field name="Current Timezone Offset" size="254" source="File: C:\Users\dmedhi\Downloads\treatment-stores.csv" type="V_String" />
+            <Field name="Olson Timezone" size="254" source="File: C:\Users\dmedhi\Downloads\treatment-stores.csv" type="V_String" />
+            <Field name="Name" size="254" source="File: C:\Users\dmedhi\Downloads\treatment-stores.csv" type="V_String" />
+            <Field name="Right_State" size="254" source="File: C:\Users\dmedhi\Downloads\treatment-stores.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="810" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="StoreID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="StoreID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_CountDistinct_Week" selected="False" input="Left_" />
+                <SelectField field="Right_StoreID" selected="False" rename="Right_StoreID" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Left">
+          <RecordInfo>
+            <Field name="StoreID" size="254" source="Summarize: GroupBy - StoreID" type="V_String" />
+          </RecordInfo>
+          <SortInfo noProgress="True">
+            <Field field="StoreID" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="Join">
+          <RecordInfo>
+            <Field name="StoreID" size="254" source="Summarize: GroupBy - StoreID" type="V_String" />
+            <Field name="Invoice Number" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-transactions\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="Invoice Date" source="File: C:\Users\dmedhi\Downloads\round-roaster-transactions\RoundRoastersTransactions.csv" type="Date" />
+            <Field name="Category" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-transactions\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="Product" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-transactions\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="QTY" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-transactions\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="Size" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-transactions\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="Gross Margin" source="File: C:\Users\dmedhi\Downloads\round-roaster-transactions\RoundRoastersTransactions.csv" type="Double" />
+            <Field name="Sales" source="File: C:\Users\dmedhi\Downloads\round-roaster-transactions\RoundRoastersTransactions.csv" type="Double" />
+            <Field name="Sq_Ft" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="Double" />
+            <Field name="AvgMonthSales" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="Double" />
+            <Field name="Right_Name" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Phone Number" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Street Combined" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Street 1" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="City" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="State" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Postal Code" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Region" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Country" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Coordinates" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Latitude" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Longitude" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Timezone" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Current Timezone Offset" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Olson Timezone" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Week" source="Formula: FLOOR(DateTimeDiff([Invoice Date],'2015-02-06','days')/7+1)" type="Int64" />
+            <Field name="Week_Start" source="Formula: DateTimeAdd('2015-02-06',7*([Week]-1),'days')" type="Date" />
+            <Field name="Week_End" source="Formula: DateTimeAdd([Week_Start],6,'days')" type="Date" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="StoreID" order="" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="Right">
+          <RecordInfo>
+            <Field name="StoreID" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-transactions\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="Invoice Number" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-transactions\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="Invoice Date" source="File: C:\Users\dmedhi\Downloads\round-roaster-transactions\RoundRoastersTransactions.csv" type="Date" />
+            <Field name="Category" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-transactions\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="Product" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-transactions\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="QTY" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-transactions\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="Size" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-transactions\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="Gross Margin" source="File: C:\Users\dmedhi\Downloads\round-roaster-transactions\RoundRoastersTransactions.csv" type="Double" />
+            <Field name="Sales" source="File: C:\Users\dmedhi\Downloads\round-roaster-transactions\RoundRoastersTransactions.csv" type="Double" />
+            <Field name="Sq_Ft" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="Double" />
+            <Field name="AvgMonthSales" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="Double" />
+            <Field name="Right_Name" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Phone Number" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Street Combined" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Street 1" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="City" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="State" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Postal Code" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Region" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Country" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Coordinates" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Latitude" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Longitude" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Timezone" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Current Timezone Offset" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Olson Timezone" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="V_String" />
+            <Field name="Week" source="Formula: FLOOR(DateTimeDiff([Invoice Date],'2015-02-06','days')/7+1)" type="Int64" />
+            <Field name="Week_Start" source="Formula: DateTimeAdd('2015-02-06',7*([Week]-1),'days')" type="Date" />
+            <Field name="Week_End" source="Formula: DateTimeAdd([Week_Start],6,'days')" type="Date" />
+          </RecordInfo>
+          <SortInfo noProgress="True">
+            <Field field="StoreID" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="918" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="StoreID" action="GroupBy" rename="StoreID" />
+            <SummarizeField field="Invoice Number" action="GroupBy" rename="Invoice Number" />
+            <SummarizeField field="Invoice Date" action="GroupBy" rename="Invoice Date" />
+            <SummarizeField field="Region" action="GroupBy" rename="Region" />
+            <SummarizeField field="Week" action="GroupBy" rename="Week" />
+            <SummarizeField field="Week_Start" action="GroupBy" rename="Week_Start" />
+            <SummarizeField field="Week_End" action="GroupBy" rename="Week_End" />
+            <SummarizeField field="Gross Margin" action="Sum" rename="Sum_Gross Margin" />
+            <SummarizeField field="Sales" action="Sum" rename="Sum_Sales" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="StoreID" size="254" source="Summarize: GroupBy - StoreID" type="V_String" />
+            <Field name="Invoice Number" size="254" source="Summarize: GroupBy - Invoice Number" type="V_String" />
+            <Field name="Invoice Date" source="Summarize: GroupBy - Invoice Date" type="Date" />
+            <Field name="Region" size="254" source="Summarize: GroupBy - Region" type="V_String" />
+            <Field name="Week" source="Summarize: GroupBy - Week" type="Int64" />
+            <Field name="Week_Start" source="Summarize: GroupBy - Week_Start" type="Date" />
+            <Field name="Week_End" source="Summarize: GroupBy - Week_End" type="Date" />
+            <Field name="Sum_Gross Margin" source="Summarize: Sum - Gross Margin" type="Double" />
+            <Field name="Sum_Sales" source="Summarize: Sum - Sales" type="Double" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="StoreID" order="Asc" />
+            <Field field="Invoice Number" order="Asc" />
+            <Field field="Invoice Date" order="Asc" />
+            <Field field="Region" order="Asc" />
+            <Field field="Week" order="Asc" />
+            <Field field="Week_Start" order="Asc" />
+            <Field field="Week_End" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="1014" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="StoreID" action="GroupBy" rename="StoreID" />
+            <SummarizeField field="Week" action="GroupBy" rename="Week" />
+            <SummarizeField field="Week_Start" action="GroupBy" rename="Week_Start" />
+            <SummarizeField field="Week_End" action="GroupBy" rename="Week_End" />
+            <SummarizeField field="Invoice Number" action="Count" rename="Count" />
+            <SummarizeField field="Sum_Gross Margin" action="Sum" rename="Sum_Gross Margin" />
+            <SummarizeField field="Sum_Sales" action="Sum" rename="Sum_Sales" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="StoreID" size="254" source="Summarize: GroupBy - StoreID" type="V_String" />
+            <Field name="Week" source="Summarize: GroupBy - Week" type="Int64" />
+            <Field name="Week_Start" source="Summarize: GroupBy - Week_Start" type="Date" />
+            <Field name="Week_End" source="Summarize: GroupBy - Week_End" type="Date" />
+            <Field name="Count" source="Summarize: Count" type="Int64" />
+            <Field name="Sum_Gross Margin" source="Summarize: Sum - Sum_Gross Margin" type="Double" />
+            <Field name="Sum_Sales" source="Summarize: Sum - Sum_Sales" type="Double" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="StoreID" order="Asc" />
+            <Field field="Week" order="Asc" />
+            <Field field="Week_Start" order="Asc" />
+            <Field field="Week_End" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1158" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File FileFormat="19" MaxRecords="">C:\Alteryx_Projects\AB Test\Weekly_Store_Sales.yxdb</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <NoSpatialIndex>False</NoSpatialIndex>
+            <SaveSource>True</SaveSource>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Weekly_Store_Sales.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1014" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Sq_Ft" selected="True" type="Double" size="8" />
+            <SelectField field="AvgMonthSales" selected="True" type="Double" size="8" />
+            <SelectField field="Right_State" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="StoreID" size="254" source="File: C:\Users\dmedhi\Downloads\treatment-stores.csv" type="V_String" />
+            <Field name="Sq_Ft" source="File: C:\Users\dmedhi\Downloads\treatment-stores.csv" type="Double" />
+            <Field name="AvgMonthSales" source="File: C:\Users\dmedhi\Downloads\treatment-stores.csv" type="Double" />
+            <Field name="Phone Number" size="254" source="File: C:\Users\dmedhi\Downloads\treatment-stores.csv" type="V_String" />
+            <Field name="Street Combined" size="254" source="File: C:\Users\dmedhi\Downloads\treatment-stores.csv" type="V_String" />
+            <Field name="Street 1" size="254" source="File: C:\Users\dmedhi\Downloads\treatment-stores.csv" type="V_String" />
+            <Field name="Street 2" size="254" source="File: C:\Users\dmedhi\Downloads\treatment-stores.csv" type="V_String" />
+            <Field name="Street 3" size="254" source="File: C:\Users\dmedhi\Downloads\treatment-stores.csv" type="V_String" />
+            <Field name="City" size="254" source="File: C:\Users\dmedhi\Downloads\treatment-stores.csv" type="V_String" />
+            <Field name="Postal Code" size="254" source="File: C:\Users\dmedhi\Downloads\treatment-stores.csv" type="V_String" />
+            <Field name="Region" size="254" source="File: C:\Users\dmedhi\Downloads\treatment-stores.csv" type="V_String" />
+            <Field name="Country" size="254" source="File: C:\Users\dmedhi\Downloads\treatment-stores.csv" type="V_String" />
+            <Field name="Coordinates" size="254" source="File: C:\Users\dmedhi\Downloads\treatment-stores.csv" type="V_String" />
+            <Field name="Latitude" size="254" source="File: C:\Users\dmedhi\Downloads\treatment-stores.csv" type="V_String" />
+            <Field name="Longitude" size="254" source="File: C:\Users\dmedhi\Downloads\treatment-stores.csv" type="V_String" />
+            <Field name="Timezone" size="254" source="File: C:\Users\dmedhi\Downloads\treatment-stores.csv" type="V_String" />
+            <Field name="Current Timezone Offset" size="254" source="File: C:\Users\dmedhi\Downloads\treatment-stores.csv" type="V_String" />
+            <Field name="Olson Timezone" size="254" source="File: C:\Users\dmedhi\Downloads\treatment-stores.csv" type="V_String" />
+            <Field name="Name" size="254" source="File: C:\Users\dmedhi\Downloads\treatment-stores.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings>
+        <Position x="582" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="do target">False</Value>
+          <Value name="target">StoreID</Value>
+          <Value name="target level">Yes</Value>
+          <Value name="use fields">"Sum_Gross Margin","Sq_Ft","AvgMonthSales"</Value>
+          <Value name="Pearson">True</Value>
+          <Value name="Spearman">False</Value>
+          <Value name="Hoeffding">False</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Layout" size="2147483647" source="Report:Layout:" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Correlation Matrix">
+          <RecordInfo>
+            <Field name="Text" size="2147483647" source="Report:Text:" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Association_Analysis.yxmc" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="654" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\dmedhi\AppData\Local\Temp\Engine_4384_ad8e1b4bca984faeae4bd2961decdaac_\Engine_10856_dd8b4c8ae47f49f19aae8f0508563024_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1110" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="'Treatment'" field="Group" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Group = 'Treatment'
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="StoreID" size="254" source="File: C:\Users\dmedhi\Downloads\treatment-stores.csv" type="V_String" />
+            <Field name="Sq_Ft" source="File: C:\Users\dmedhi\Downloads\treatment-stores.csv" type="Double" />
+            <Field name="AvgMonthSales" source="File: C:\Users\dmedhi\Downloads\treatment-stores.csv" type="Double" />
+            <Field name="Phone Number" size="254" source="File: C:\Users\dmedhi\Downloads\treatment-stores.csv" type="V_String" />
+            <Field name="Street Combined" size="254" source="File: C:\Users\dmedhi\Downloads\treatment-stores.csv" type="V_String" />
+            <Field name="Street 1" size="254" source="File: C:\Users\dmedhi\Downloads\treatment-stores.csv" type="V_String" />
+            <Field name="Street 2" size="254" source="File: C:\Users\dmedhi\Downloads\treatment-stores.csv" type="V_String" />
+            <Field name="Street 3" size="254" source="File: C:\Users\dmedhi\Downloads\treatment-stores.csv" type="V_String" />
+            <Field name="City" size="254" source="File: C:\Users\dmedhi\Downloads\treatment-stores.csv" type="V_String" />
+            <Field name="Postal Code" size="254" source="File: C:\Users\dmedhi\Downloads\treatment-stores.csv" type="V_String" />
+            <Field name="Region" size="254" source="File: C:\Users\dmedhi\Downloads\treatment-stores.csv" type="V_String" />
+            <Field name="Country" size="254" source="File: C:\Users\dmedhi\Downloads\treatment-stores.csv" type="V_String" />
+            <Field name="Coordinates" size="254" source="File: C:\Users\dmedhi\Downloads\treatment-stores.csv" type="V_String" />
+            <Field name="Latitude" size="254" source="File: C:\Users\dmedhi\Downloads\treatment-stores.csv" type="V_String" />
+            <Field name="Longitude" size="254" source="File: C:\Users\dmedhi\Downloads\treatment-stores.csv" type="V_String" />
+            <Field name="Timezone" size="254" source="File: C:\Users\dmedhi\Downloads\treatment-stores.csv" type="V_String" />
+            <Field name="Current Timezone Offset" size="254" source="File: C:\Users\dmedhi\Downloads\treatment-stores.csv" type="V_String" />
+            <Field name="Olson Timezone" size="254" source="File: C:\Users\dmedhi\Downloads\treatment-stores.csv" type="V_String" />
+            <Field name="Name" size="254" source="File: C:\Users\dmedhi\Downloads\treatment-stores.csv" type="V_String" />
+            <Field name="Group" size="1073741823" source="Formula: 'Treatment'" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="906" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="StoreID" action="GroupBy" rename="StoreID" />
+            <SummarizeField field="Region" action="GroupBy" rename="Region" />
+            <SummarizeField field="AvgMonthSales" action="GroupBy" rename="AvgMonthSales" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="StoreID" size="254" source="Summarize: GroupBy - StoreID" type="V_String" />
+            <Field name="Region" size="254" source="Summarize: GroupBy - Region" type="V_String" />
+            <Field name="AvgMonthSales" source="Summarize: GroupBy - AvgMonthSales" type="Double" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="StoreID" order="Asc" />
+            <Field field="Region" order="Asc" />
+            <Field field="AvgMonthSales" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1182" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="StoreID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="StoreID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_StoreID" selected="False" rename="Right_StoreID" input="Right_" />
+                <SelectField field="Right_Sq_Ft" selected="False" input="Right_" />
+                <SelectField field="Right_AvgMonthSales" selected="False" rename="Right_AvgMonthSales" input="Right_" />
+                <SelectField field="Right_Phone Number" selected="False" input="Right_" />
+                <SelectField field="Right_Street Combined" selected="False" input="Right_" />
+                <SelectField field="Right_Street 1" selected="False" input="Right_" />
+                <SelectField field="Right_Street 2" selected="False" input="Right_" />
+                <SelectField field="Right_Street 3" selected="False" input="Right_" />
+                <SelectField field="Right_City" selected="False" input="Right_" />
+                <SelectField field="Right_Postal Code" selected="False" input="Right_" />
+                <SelectField field="Right_Region" selected="False" rename="Right_Region" input="Right_" />
+                <SelectField field="Right_Country" selected="False" input="Right_" />
+                <SelectField field="Right_Coordinates" selected="False" input="Right_" />
+                <SelectField field="Right_Latitude" selected="False" input="Right_" />
+                <SelectField field="Right_Longitude" selected="False" input="Right_" />
+                <SelectField field="Right_Timezone" selected="False" input="Right_" />
+                <SelectField field="Right_Current Timezone Offset" selected="False" input="Right_" />
+                <SelectField field="Right_Olson Timezone" selected="False" input="Right_" />
+                <SelectField field="Right_Name" selected="False" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Left">
+          <RecordInfo>
+            <Field name="StoreID" size="254" source="Summarize: GroupBy - StoreID" type="V_String" />
+            <Field name="Region" size="254" source="Summarize: GroupBy - Region" type="V_String" />
+            <Field name="AvgMonthSales" source="Summarize: GroupBy - AvgMonthSales" type="Double" />
+          </RecordInfo>
+          <SortInfo noProgress="True">
+            <Field field="StoreID" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="Join">
+          <RecordInfo>
+            <Field name="StoreID" size="254" source="Summarize: GroupBy - StoreID" type="V_String" />
+            <Field name="Region" size="254" source="Summarize: GroupBy - Region" type="V_String" />
+            <Field name="AvgMonthSales" source="Summarize: GroupBy - AvgMonthSales" type="Double" />
+            <Field name="Group" size="1073741823" source="Formula: 'Treatment'" type="V_WString" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="StoreID" order="" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="Right">
+          <RecordInfo>
+            <Field name="StoreID" size="254" source="File: C:\Users\dmedhi\Downloads\treatment-stores.csv" type="V_String" />
+            <Field name="Group" size="1073741823" source="Formula: 'Treatment'" type="V_WString" />
+          </RecordInfo>
+          <SortInfo noProgress="True">
+            <Field field="StoreID" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1314" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="'Control'" field="Group" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Group = 'Control'
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="StoreID" size="254" source="Summarize: GroupBy - StoreID" type="V_String" />
+            <Field name="Region" size="254" source="Summarize: GroupBy - Region" type="V_String" />
+            <Field name="AvgMonthSales" source="Summarize: GroupBy - AvgMonthSales" type="Double" />
+            <Field name="Group" size="1073741823" source="Formula: 'Control'" type="V_WString" />
+          </RecordInfo>
+          <SortInfo noProgress="True">
+            <Field field="StoreID" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="1410" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="StoreID" size="254" source="Summarize: GroupBy - StoreID" type="V_String" />
+            <Field name="Region" size="254" source="Summarize: GroupBy - Region" type="V_String" />
+            <Field name="AvgMonthSales" source="Summarize: GroupBy - AvgMonthSales" type="Double" />
+            <Field name="Group" size="1073741823" source="Formula: (Multiple Sources)" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1554" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File FileFormat="19" MaxRecords="">C:\Alteryx_Projects\AB Test\Store_List.yxdb</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <NoSpatialIndex>False</NoSpatialIndex>
+            <SaveSource>True</SaveSource>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Store_List.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="714" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[CountDistinct_Week] = 76</Expression>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>CountDistinct_Week</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2019-03-10 03:23:20</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>76</Operand>
+              <StartDate>2019-03-10 03:23:20</StartDate>
+              <EndDate>2019-03-10 03:23:20</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[CountDistinct_Week] = 76</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="True">
+          <RecordInfo>
+            <Field name="StoreID" size="254" source="Summarize: GroupBy - StoreID" type="V_String" />
+            <Field name="CountDistinct_Week" source="Summarize: CountDistinct - Week" type="Int64" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="StoreID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="False">
+          <RecordInfo>
+            <Field name="StoreID" size="254" source="Summarize: GroupBy - StoreID" type="V_String" />
+            <Field name="CountDistinct_Week" source="Summarize: CountDistinct - Week" type="Int64" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="StoreID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="654" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\dmedhi\AppData\Local\Temp\Engine_4384_ad8e1b4bca984faeae4bd2961decdaac_\Engine_10856_e1d8c20ed9d0486b93bb09bdbe9e3774_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="402" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="StoreID" action="GroupBy" rename="StoreID" />
+            <SummarizeField field="Gross Margin" action="Sum" rename="Sum_Gross Margin" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="StoreID" size="254" source="Summarize: GroupBy - StoreID" type="V_String" />
+            <Field name="Sum_Gross Margin" source="Summarize: Sum - Gross Margin" type="Double" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="StoreID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="486" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="StoreID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="StoreID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_StoreID" selected="False" input="Right_" />
+                <SelectField field="Right_Invoice Number" selected="False" input="Right_" />
+                <SelectField field="Right_Invoice Date" selected="False" input="Right_" />
+                <SelectField field="Right_Category" selected="False" input="Right_" />
+                <SelectField field="Right_Product" selected="False" input="Right_" />
+                <SelectField field="Right_QTY" selected="False" input="Right_" />
+                <SelectField field="Right_Size" selected="False" input="Right_" />
+                <SelectField field="Right_Gross Margin" selected="False" input="Right_" />
+                <SelectField field="Right_Sales" selected="False" input="Right_" />
+                <SelectField field="Right_Right_Name" selected="False" input="Right_" />
+                <SelectField field="Right_Phone Number" selected="False" input="Right_" />
+                <SelectField field="Right_Street Combined" selected="False" input="Right_" />
+                <SelectField field="Right_Street 1" selected="False" input="Right_" />
+                <SelectField field="Right_City" selected="False" input="Right_" />
+                <SelectField field="Right_State" selected="False" input="Right_" />
+                <SelectField field="Right_Postal Code" selected="False" input="Right_" />
+                <SelectField field="Right_Region" selected="False" input="Right_" />
+                <SelectField field="Right_Country" selected="False" input="Right_" />
+                <SelectField field="Right_Coordinates" selected="False" input="Right_" />
+                <SelectField field="Right_Latitude" selected="False" input="Right_" />
+                <SelectField field="Right_Longitude" selected="False" input="Right_" />
+                <SelectField field="Right_Timezone" selected="False" input="Right_" />
+                <SelectField field="Right_Current Timezone Offset" selected="False" input="Right_" />
+                <SelectField field="Right_Olson Timezone" selected="False" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Left">
+          <RecordInfo>
+            <Field name="StoreID" size="254" source="Summarize: GroupBy - StoreID" type="V_String" />
+            <Field name="Sum_Gross Margin" source="Summarize: Sum - Gross Margin" type="Double" />
+          </RecordInfo>
+          <SortInfo noProgress="True">
+            <Field field="StoreID" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="Join">
+          <RecordInfo>
+            <Field name="StoreID" size="254" source="Summarize: GroupBy - StoreID" type="V_String" />
+            <Field name="Sum_Gross Margin" source="Summarize: Sum - Gross Margin" type="Double" />
+            <Field name="Sq_Ft" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="Double" />
+            <Field name="AvgMonthSales" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="Double" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="StoreID" order="" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="Right">
+          <RecordInfo>
+            <Field name="StoreID" size="254" source="File: C:\Users\dmedhi\Downloads\round-roaster-transactions\RoundRoastersTransactions.csv" type="V_String" />
+            <Field name="Sq_Ft" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="Double" />
+            <Field name="AvgMonthSales" source="File: C:\Users\dmedhi\Downloads\round-roaster-stores.csv" type="Double" />
+          </RecordInfo>
+          <SortInfo noProgress="True">
+            <Field field="StoreID" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="40">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1326" y="522" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\dmedhi\AppData\Local\Temp\Engine_4384_ad8e1b4bca984faeae4bd2961decdaac_\Engine_10856_6d95f2b053f6407b8e0e672eb2fa1135_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1002" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\dmedhi\AppData\Local\Temp\Engine_4384_ad8e1b4bca984faeae4bd2961decdaac_\Engine_10856_a9c55ee1082c425ca4cd9c247812f78d_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="43">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1122" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\dmedhi\AppData\Local\Temp\Engine_4384_ad8e1b4bca984faeae4bd2961decdaac_\Engine_10856_ca08e31ea9894675ba73461e38f38385_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="44">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1002" y="462" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\dmedhi\AppData\Local\Temp\Engine_4384_ad8e1b4bca984faeae4bd2961decdaac_\Engine_10856_8018565315e34e399ea7b2493d7ff19e_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="46">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1518" y="510" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\dmedhi\AppData\Local\Temp\Engine_4384_ad8e1b4bca984faeae4bd2961decdaac_\Engine_10856_76d73a911de740f5b14597fa8f8683ee_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="47">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="918" y="222" width="100" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>1 Row per Invoice</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="48">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="50">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1038" y="222" width="100" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Invoices per store per week</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="51">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1158" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File FileFormat="19" MaxRecords="">C:\Alteryx_Projects\AB Test\Weekly_Store_Traffic.yxdb</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <NoSpatialIndex>False</NoSpatialIndex>
+            <SaveSource>True</SaveSource>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Weekly_Store_Traffic.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="52">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="906" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Region" action="GroupBy" rename="Region" />
+            <SummarizeField field="StoreID" action="GroupBy" rename="StoreID" />
+            <SummarizeField field="Week" action="GroupBy" rename="Week" />
+            <SummarizeField field="Week_Start" action="GroupBy" rename="Week_Start" />
+            <SummarizeField field="Week_End" action="GroupBy" rename="Week_End" />
+            <SummarizeField field="Gross Margin" action="Sum" rename="Weekly_Gross Margin" />
+            <SummarizeField field="Sales" action="Sum" rename="Weekly_Sales" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Region" size="254" source="Summarize: GroupBy - Region" type="V_String" />
+            <Field name="StoreID" size="254" source="Summarize: GroupBy - StoreID" type="V_String" />
+            <Field name="Week" source="Summarize: GroupBy - Week" type="Int64" />
+            <Field name="Week_Start" source="Summarize: GroupBy - Week_Start" type="Date" />
+            <Field name="Week_End" source="Summarize: GroupBy - Week_End" type="Date" />
+            <Field name="Weekly_Gross Margin" source="Summarize: Sum - Gross Margin" type="Double" />
+            <Field name="Weekly_Sales" source="Summarize: Sum - Sales" type="Double" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="Region" order="Asc" />
+            <Field field="StoreID" order="Asc" />
+            <Field field="Week" order="Asc" />
+            <Field field="Week_Start" order="Asc" />
+            <Field field="Week_End" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="53">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1002" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\dmedhi\AppData\Local\Temp\Engine_4384_ad8e1b4bca984faeae4bd2961decdaac_\Engine_10856_f1a0a15f74e3437e99cd094a64331734_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="10" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="10" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="6" Connection="Field Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="7" Connection="Field Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Interactive" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Interactive" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Join" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Join" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Join" />
+      <Destination ToolID="39" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="Output" />
+      <Destination ToolID="39" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="True" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="17" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="True" />
+      <Destination ToolID="17" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Join" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Join" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Join" />
+      <Destination ToolID="52" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="42" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="51" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Correlation Matrix" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="36" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="31" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Output" />
+      <Destination ToolID="31" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Output" />
+      <Destination ToolID="44" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Left" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="31" Connection="Join" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="32" Connection="Output" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Join" />
+      <Destination ToolID="40" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Output" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Output" />
+      <Destination ToolID="46" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="39" Connection="Join" />
+      <Destination ToolID="26" Connection="Data Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="52" Connection="Output" />
+      <Destination ToolID="53" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="52" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Analyzing a Market Test-2</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+    <RuntimeProperties>
+      <Actions />
+      <Questions>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Questions</Description>
+          <Name>Tab (48)</Name>
+          <ToolId value="48" />
+          <Questions />
+        </Question>
+      </Questions>
+      <ModuleType>Wizard</ModuleType>
+      <MacroCustomHelp value="False" />
+      <MacroDynamicOutputFields value="False" />
+      <MacroImageStd value="0" />
+      <MacroInputs />
+      <MacroOutputs />
+      <Wiz_CustomHelp value="False" />
+      <Wiz_CustomGraphic value="False" />
+      <Wiz_ShowOutput value="True" />
+      <Wiz_OpenOutputTools>
+        <Tool ToolId="6" Selected="True" />
+        <Tool ToolId="7" Selected="True" />
+        <Tool ToolId="8" Selected="False" />
+        <Tool ToolId="9" Selected="False" />
+        <Tool ToolId="21" Selected="True" />
+        <Tool ToolId="26" Selected="True" />
+        <Tool ToolId="27" Selected="False" />
+        <Tool ToolId="36" Selected="False" />
+        <Tool ToolId="40" Selected="False" />
+        <Tool ToolId="42" Selected="False" />
+        <Tool ToolId="43" Selected="False" />
+        <Tool ToolId="44" Selected="False" />
+        <Tool ToolId="46" Selected="False" />
+        <Tool ToolId="51" Selected="True" />
+        <Tool ToolId="53" Selected="False" />
+      </Wiz_OpenOutputTools>
+      <Wiz_OutputMessage />
+      <Wiz_NoOutputFilesMessage />
+      <Wiz_ChainRunWizard />
+    </RuntimeProperties>
+  </Properties>
+</AlteryxDocument>
